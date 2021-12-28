@@ -23,5 +23,6 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        "jest/no-commented-out-tests": "off"
     }
 };
