@@ -1,3 +1,5 @@
 export function sum(a: number, b: number) {
-  return a + b;
+  // let c = 5;
+  const c = 5;
+  return c + a + b;
 }
