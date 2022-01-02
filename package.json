@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 5000",
     "lint": "next lint --dir src",
     "test": "jest",
     "test:ci": "jest --coverage --silent --ci"

@@ -1,0 +1,8 @@
+# ignore the node_modules
+node_modules
+# ignore generated .next
+.next
+# ignore github action
+.github
+# ignore env files
+.env*
