@@ -28,7 +28,9 @@ name: Deploy to Amazon ECS
 
 on:
   push:
-    branches: [main, deployment-aws-ecs-github-action-cd]
+    branches: [deployment-aws-ecs-github-action-cd]
+  # add manual dispatch action
+  workflow_dispatch:
 
 env:
   AWS_REGION: ca-central-1                   # set this to your preferred AWS region, e.g. us-west-1
