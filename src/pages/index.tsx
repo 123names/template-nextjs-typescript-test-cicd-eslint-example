@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          This is test run for deploy nextjs application with ECS
+          This is test run for CD deploy nextjs application with ECS
         </h1>
       </main>
 
